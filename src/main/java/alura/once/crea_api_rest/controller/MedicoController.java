@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MedicoController {
     @PostMapping
     public void registrarMedico(@RequestBody DatosRegistroMedicos datosRegistroMedicos){
-        System.out.println("El request llega correctamente");
+
         System.out.println(datosRegistroMedicos);
 
     }
