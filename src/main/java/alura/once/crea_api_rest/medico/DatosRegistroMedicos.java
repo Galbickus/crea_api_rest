@@ -7,6 +7,5 @@ public record DatosRegistroMedicos(
         String email,
         String documento,
         Especialidad especialidad,
-        DatosDireccion datosDireccion
-) {
+        DatosDireccion direccion) {
 }
