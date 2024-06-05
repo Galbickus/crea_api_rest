@@ -18,11 +18,19 @@ public class Medico {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-   private  String nombre;
+    private  String nombre;
     private String email;
     private String documento;
     @Enumerated(EnumType.STRING)
     private Especialidad especialidad;
     @Embedded
     private Direccion direccion;
+
+    public Medico(DatosRegistroMedicos datosRegistroMedicos) {
+        this.nombre = datosRegistroMedicos.nombre();
+        this.email = datosRegistroMedicos.email();
+        this.documento = datosRegistroMedicos.documento();
+        this.especialidad = datosRegistroMedicos.especialidad();
+        this.direccion = new Direccion(datosRegistroMedicos.direccion());
+    }
 }
