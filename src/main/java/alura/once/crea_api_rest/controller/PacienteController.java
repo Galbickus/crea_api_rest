@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("pacientes")
 public class PacienteController {
     @PostMapping
-    public void registrar(@RequestBody DatosRegistroPaciente datos){
+    public void registrar(@RequestBody  DatosRegistroPaciente datos){
         System.out.println("datos recibidos: " + datos);
     }
 }
