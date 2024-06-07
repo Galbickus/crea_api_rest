@@ -9,4 +9,4 @@ numero varchar(20),
 complemento varchar(100),
 distrito varchar(100)not null,
 ciudad varchar(100)not null,
-primary key(id);
+primary key(id));
