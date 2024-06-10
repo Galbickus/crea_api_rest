@@ -2,6 +2,9 @@
  </h1> 
 <h1>:construction: :wrench: Proyecto en construcción :wrench: :construction:</h1>
 
+![image](https://github.com/Galbickus/crea_api_rest/assets/135274833/b45d4cde-ab4c-4b09-81f7-d6fe13f5e5c4)
+
+
 
 ![image](https://github.com/Galbickus/crea_api_rest/assets/135274833/032f4db3-2562-4791-95b7-4cfdcf903469)
 
